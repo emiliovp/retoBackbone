@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "60426f3c8885b9b3edd59a0ead55775c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4805,6 +4805,68 @@
                 }
             ],
             "time": "2020-11-12T00:07:28+00:00"
+        },
+        {
+            "name": "wafto/laravel-sepomex",
+            "version": "v1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wafto/laravel-sepomex.git",
+                "reference": "80bfec322f8c2a8547caae539f61254c439e2340"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wafto/laravel-sepomex/zipball/80bfec322f8c2a8547caae539f61254c439e2340",
+                "reference": "80bfec322f8c2a8547caae539f61254c439e2340",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^6.0|^7.0|^8.0",
+                "illuminate/contracts": "^6.0|^7.0|^8.0",
+                "illuminate/database": "^6.0|^7.0|^8.0",
+                "illuminate/support": "^6.0|^7.0|^8.0",
+                "php": "^7.3"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^4.0|^5.0|^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Aftab\\Sepomex\\SepomexServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Aftab\\Sepomex\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aftab Hussain Miranda",
+                    "email": "wafto.mx@gmail.com"
+                }
+            ],
+            "description": "Servicio Postal Mexicano (Sepomex) laravel library",
+            "keywords": [
+                "laravel",
+                "mexico",
+                "sepomex"
+            ],
+            "support": {
+                "issues": "https://github.com/wafto/laravel-sepomex/issues",
+                "source": "https://github.com/wafto/laravel-sepomex"
+            },
+            "time": "2020-09-27T23:07:44+00:00"
         },
         {
             "name": "webmozart/assert",

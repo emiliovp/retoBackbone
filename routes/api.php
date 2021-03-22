@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('zip-codes/{zip_code}', 'App\Http\Controllers\ZipCodesController@zipcode');
